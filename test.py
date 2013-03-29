@@ -53,11 +53,9 @@ class FirstTkinter(object):
         canvas_curr_east = 0
         elapsed_minutes = 0
         while elapsed_minutes < new_minutes:
-            print "Got to first loop."
             delta_time = 0
             curr_time = time.time()
             while delta_time < 60:
-                print "Got to 2nd loop."
                 delta_time += time.time() - curr_time
                 curr_time = time.time()
                 clock_seconds = delta_time
