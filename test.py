@@ -2,6 +2,9 @@ from Tkinter import *
 from pprint import *
 import time
 class FirstTkinter(object):
+    """ Draws a visual timer that counts down from a specified time.
+
+    """
     def __init__(self, master):
         self.master = master
         self.frame = Frame(master, width=800, height=1000, bg="", colormap="new")
